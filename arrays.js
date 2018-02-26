@@ -31,4 +31,6 @@ function accessElementInArray(array, index){
 function addElementToBeginningOfArray(array, element) {
   
 }
-function 
+function addElementToBeginningOfArray(array, element) {
+  
+}
