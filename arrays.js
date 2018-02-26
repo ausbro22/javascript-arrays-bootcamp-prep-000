@@ -25,4 +25,6 @@ function removeElementFromEndOfArray(array) {
 function destructivelyRemoveElementFromEndOfArray(array){
   
 }
-function 
+function accessElementInArray(array, index){
+ console.log(array[index]) 
+}
