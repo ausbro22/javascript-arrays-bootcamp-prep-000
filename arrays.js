@@ -22,4 +22,7 @@ function destructivelyAddElementToEndOfArray(array, element){
 function removeElementFromEndOfArray(array) {
   
 }
-function
+function destructivelyRemoveElementFromEndOfArray(array){
+  
+}
+function 
