@@ -28,3 +28,4 @@ function destructivelyRemoveElementFromEndOfArray(array){
 function accessElementInArray(array, index){
  console.log(array[index]) 
 }
+function 
