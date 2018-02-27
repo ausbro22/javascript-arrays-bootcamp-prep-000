@@ -28,8 +28,9 @@ return array
 function accessElementInArray(array, index){
  console.log(array[index]) 
 }
-function addElementToBeginningOfArray(array, element) {
-  
+function removeElementFromEndOfArray(array, element) {
+  array.slice(0,0)
+  return array
 }
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift();
