@@ -18,7 +18,7 @@ function destructivelyAddElementToEndOfArray(array, element){
   return array
 }
 function removeElementFromEndOfArray(array) {
-var newArray = array.shift();
+var newArray = array.pop();
 return newArray;
 }
 function destructivelyRemoveElementFromEndOfArray(array){
