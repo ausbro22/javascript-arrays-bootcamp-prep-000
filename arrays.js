@@ -28,8 +28,8 @@ return array
 function accessElementInArray(array, index){
  console.log(array[2]) 
 }
-function removeElementFromEndOfArray(array, element) {
-  array.shift()
+function removeElementFromBeginningOfArray(array, element) {
+  array.slice(0, array.length - 1)
   return array
 }
 function destructivelyRemoveElementFromBeginningOfArray(array) {
