@@ -13,7 +13,7 @@ function removeElementFromBeginningOfArray(array) {
   return newArray
 }
 function removeElementFromEndOfArray(array) {
-var newArray = array.slice(-1);
+var newArray = array.slice(-2);
 return newArray;
 }
 function destructivelyAddElementToBeginningOfArray(array, element){
