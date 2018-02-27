@@ -13,8 +13,8 @@ function removeElementFromBeginningOfArray(array) {
   return newArray
 }
 function removeElementFromEndOfArray(array) {
-array.pop();
-return array;
+var newArray = array.slice(-1);
+return newArray;
 }
 function destructivelyAddElementToBeginningOfArray(array, element){
   array.unshift(element)
