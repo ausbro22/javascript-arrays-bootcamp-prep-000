@@ -23,7 +23,7 @@ return newArray;
 }
 function destructivelyRemoveElementFromEndOfArray(array){
 array.slice(0, array.length - 1)
-console.log(array)
+return array
 }
 function accessElementInArray(array, index){
  console.log(array[index]) 
