@@ -5,8 +5,8 @@ function addElementToBeginningOfArray(array, element){
   return newArray
  }
 function addElementToEndOfArray(array, element){
-  array.push(element)
-  return array
+  var newArray = [...(array), (element)]
+  return newArray
 }
 function removeElementFromBeginningOfArray(array) {
   array.slice(0)
