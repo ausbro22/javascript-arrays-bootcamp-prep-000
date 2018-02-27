@@ -9,7 +9,7 @@ function addElementToEndOfArray(array, element){
   return newArray
 }
 function removeElementFromBeginningOfArray(array) {
-  var newArray = array.slice(0)
+  var newArray = array.shift()
   return newArray
 }
 function removeElementFromEndOfArray(array) {
