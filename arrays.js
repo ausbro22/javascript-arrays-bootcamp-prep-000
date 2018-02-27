@@ -22,7 +22,7 @@ array.pop();
 return array;
 }
 function destructivelyRemoveElementFromEndOfArray(array){
-array.pop
+array.pop()
 return array
 }
 function accessElementInArray(array, index){
