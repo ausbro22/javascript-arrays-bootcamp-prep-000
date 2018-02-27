@@ -26,7 +26,7 @@ array.pop()
 return array
 }
 function accessElementInArray(array, index){
- console.log(array[2]) 
+ return array[index] 
 }
 function removeElementFromBeginningOfArray(array) {
   array.slice(0)
